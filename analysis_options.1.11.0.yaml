@@ -1,0 +1,13 @@
+include: package:pedantic/analystis_options.1.11.0.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+linter:
+  rules:
+    - prefer_constructors
+    - prefer_declarations
+    - avoid_print
+    - use_key_in_wiget_constructors
