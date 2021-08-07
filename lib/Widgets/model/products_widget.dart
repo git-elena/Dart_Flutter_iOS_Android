@@ -5,6 +5,8 @@ import 'package:house_client_application/Widgets/data/product_data.dart';
 import 'package:house_client_application/Widgets/model/main_menu_item.dart';
 import 'package:http/http.dart' as http;
 
+
+
 class AllProducts extends StatefulWidget {
   @override
   _AllProductsState createState() => _AllProductsState();
@@ -22,8 +24,10 @@ class _AllProductsState extends State<AllProducts> {
     simpleFetchCategories();
   }
   simpleFetchCategories() async {
+
+
     final response = await http.Client()
-        .get(Uri.parse('https://www.../wp-json/wc/v3/products/categories?consumer_key=...'));
+        .get(Uri.parse('https://' + www_site_com + '/wp-json/wc/v3/products/categories?consumer_key=' + consumer_key + '&consumer_secret=' + consumer_secret));
 
     categories.addAll(parseCategories(response.body));
     setState(() {});
@@ -157,7 +161,7 @@ class _ResultProductList extends State<ListProducts> {
   simpleFetchProduct() async {
     print(offset);
     if(offset < 0){ return; }
-    final String url = 'https://www.../wp-json/wc/v3/products?per_page=${countPartLoading}&offset=${offset}&consumer_key=ck_...';
+    final String url = 'https://www.hirosaki.store/wp-json/wc/v3/products?per_page=${countPartLoading}&offset=${offset}&consumer_key=ck_82e7d8baebb8499987fb34f8caba6e7f8f59d908&consumer_secret=cs_3a58342c5c5a39bd07e0a2a67a61691c81d1ed5a';
     final response = await http.Client()
         .get(Uri.parse(url));
 
@@ -285,7 +289,7 @@ class ImageProduct extends StatelessWidget {
   Widget build(BuildContext context) {
       // Image.network(products[index].photoSrc))
     if (url.isEmpty) {
-      return Image.network('https://www.../wp-content/uploads/woocommerce-placeholder-300x300.png');
+      return Image.network('https://www.hirosaki.store/wp-content/uploads/woocommerce-placeholder-300x300.png');
     } else {
       return Image.network(url);
     }
