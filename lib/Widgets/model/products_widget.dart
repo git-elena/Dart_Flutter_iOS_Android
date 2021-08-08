@@ -5,6 +5,8 @@ import 'package:house_client_application/Widgets/data/product_data.dart';
 import 'package:house_client_application/Widgets/model/main_menu_item.dart';
 import 'package:http/http.dart' as http;
 
+import 'access.dart';
+
 
 class AllProducts extends StatefulWidget {
   @override
@@ -96,7 +98,7 @@ class _AllProductsState extends State<AllProducts> {
 
               ]
             ),
-            body: Text('X'),//ListProducts(),
+            body: ListProducts(),
         )
     );
   }

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:house_client_application/Widgets/test_broadcast_between_widget.dart';
 
 import 'model/products_widget.dart';
-import 'test_inherited.dart';
+
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -14,12 +15,11 @@ class App extends StatelessWidget {
 
           home: DefaultTextStyle(
             style: Theme.of(context).textTheme.bodyText1!,
-              child:
-            Example(),
-
-          //AppBar(child: AllProducts()),
-          //PageList(),
-          //UserProfile(),
+              child: Example(),
+              // AllProducts(),
+          // AppBar(child: AllProducts()),
+          // PageList(),
+          // UserProfile(),
 
         )
     );

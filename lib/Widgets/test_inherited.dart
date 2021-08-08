@@ -7,7 +7,7 @@ class Example extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SafeArea(
+      body: const SafeArea(
         child: Center(
             child: const DataOwnerStateful()),
       ),
@@ -70,7 +70,7 @@ class DataConsumerStateless extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final value = context.dependOnInheritedWidgetOfExactType<DataProviderInherited>()
+    final value = context.dependOnInheritedWidgetOfExactType<DataProviderInherited>(aspect: 'one')
         ?.value1 ??
         0;
 
@@ -110,7 +110,7 @@ class _DataConsumerStatefulState extends  State<DataConsumerStateful> {
 
       //.findAncestorStateOfType<_DataOwnerStatefulState>()?._value ?? 0;
   final value = context
-      .dependOnInheritedWidgetOfExactType<DataProviderInherited>()
+      .dependOnInheritedWidgetOfExactType<DataProviderInherited>(aspect: 'two')
       ?.value2 ??
       0;
   return Text('$value');
@@ -128,7 +128,7 @@ class _DataConsumerStatefulState extends  State<DataConsumerStateful> {
 //   }
 // }
 
-class DataProviderInherited extends InheritedWidget {
+class DataProviderInherited extends InheritedModel<String> {
 
   final int value1;
   final int value2;
@@ -150,5 +150,16 @@ class DataProviderInherited extends InheritedWidget {
   @override
   bool updateShouldNotify(DataProviderInherited old) {
     return value1 != old.value1 || value2 != old.value2;
+  }
+
+  @override
+  bool updateShouldNotifyDependent(
+      covariant DataProviderInherited oldWidget,
+      Set<String> aspects) {
+
+    final isValueOneUpdated = value1 != oldWidget.value1 && aspects.contains('one');
+    final isValueTwoUpdated = value2 != oldWidget.value2 && aspects.contains('two');
+
+    return isValueOneUpdated || isValueTwoUpdated;
   }
 }
