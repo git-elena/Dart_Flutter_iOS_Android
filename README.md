@@ -1,16 +1,22 @@
-# house_client_application
+# Мій перший проект Flutter
 
-A new Flutter project.
+Створений в процесі навчання 
 
-## Getting Started
+## Мої комерційні проекти
 
-This project is a starting point for a Flutter application.
+Сервіс доставки суші HIROSAKI
+- сайт [www.hirosaki.store](https://www.hirosaki.store/)
+- додатки
+- особливості
 
-A few resources to get you started if this is your first Flutter project:
+Відеоспостереження Бачу Все Оноайн
+- додатки
+- особливості
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Церква Храм Дуза Святого Україна
+- додатки
+- особливості
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Церква Храм Святого Духа Росія
+- додатки
+- особливості
