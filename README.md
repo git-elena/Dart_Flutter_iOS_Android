@@ -8,10 +8,10 @@
 ## Сервіс доставки суші HIROSAKI
 
 #### Дизайн сайту 
-[www.hirosaki.store](https://www.hirosaki.store/)
+- [www.hirosaki.store](https://www.hirosaki.store/)
 
 #### Додатки 
-[iOS](https://apps.apple.com/ua/app/hirosaki-sushi/id1584069908?l=uk) та [Android](https://play.google.com/store/apps/details?id=com.hirosaki.sushi_house_client_app)
+- [iOS](https://apps.apple.com/ua/app/hirosaki-sushi/id1584069908?l=uk) та [Android](https://play.google.com/store/apps/details?id=com.hirosaki.sushi_house_client_app)
 
 #### Особливості:
 - взаємодія з CRM Бітрікс24 через сайт і додатки (реалізація вхідних/вихідних хуків в CRM Бітрікс24)
@@ -23,7 +23,7 @@
 ## Церква Храм Духа Святого Україна
 
 #### Додатки
-[iOS](https://apps.apple.com/us/app/храм-духа-святого/id1560889162) та [Android](https://play.google.com/store/apps/details?id=com.helpcenter24.org)
+- [iOS](https://apps.apple.com/us/app/храм-духа-святого/id1560889162) та [Android](https://play.google.com/store/apps/details?id=com.helpcenter24.org)
 
 #### Особливості:
 - проект виконаний як окремий модуль, що інтегрується в існуючі додатки на iOS та Android
@@ -43,6 +43,10 @@
 
 ## Церква Храм Святого Духа Росія
 Аналогічний по функціям додаток
+
+#### Додатки
+- [iOS](https://apps.apple.com/us/app/храм-святого-духа/id1609689625) (Android в процесі)
+
 
 #### Особливості:
 - написаний одним проектом, який компілюється окремо для iOS та Android
