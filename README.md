@@ -67,5 +67,5 @@
 ![](https://user-images.githubusercontent.com/87285957/179900617-4dbad00e-1964-47ce-985f-aeba0d933190.png)
 
 - налаштовує додаткову інформацію для додатків (ссилки на стріми для церкви)
-- ![](https://user-images.githubusercontent.com/87285957/179900867-77afcfce-9807-4b92-92dd-0590fb15f869.png)
+![](https://user-images.githubusercontent.com/87285957/179900867-77afcfce-9807-4b92-92dd-0590fb15f869.png)
 #
