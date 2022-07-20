@@ -20,19 +20,21 @@
 
 ## Церква Храм Духа Святого Україна
 
-Додатки [iOS](https://apps.apple.com/us/app/храм-духа-святого/id1560889162) та [Android](https://play.google.com/store/apps/details?id=com.helpcenter24.org)
+Додатки: [iOS](https://apps.apple.com/us/app/храм-духа-святого/id1560889162) та [Android](https://play.google.com/store/apps/details?id=com.helpcenter24.org)
 
 Особливості:
 - проект виконаний як окремий модуль, що інтегрується в існуючі додатки на iOS та Android
-- відображення інформації з сайту за допомогою REST API
-- перегляд постів з Facebook та відео з YouTube
-- відтворення відеопотоку (Вера ТВ) та аудіостріму (Радио Позитивное)
+- основна функція - відображення інформації, отриманої з сайту через REST API
+- інші функції - відтворення відеопотоку (Вера ТВ) та аудіостріму (Радио Позитивное)
+- додатково - перегляд постів з Facebook та відео з YouTube
+
 
 Функції, що прописані нативним кодом:
-- організація роботи аудіопотоків (тільки iOS)
-- запуск фонового процесу для радіо
+- організація роботи аудіопотоків (на iOS)
+- запуск фонового процесу для радіо (на Android)
 - відкриття сторонніх додатків (Watsap, Viber, Safari)
 - ініціація телефонного виклику
+- поширення ссилки на додаток
 #
 
 
@@ -48,14 +50,14 @@
 
 ## Відеоспостереження Бачу Все Онлайн
 
-Додатки [iOS](https://apps.apple.com/ua/app/button_bachu_vse/id649771422?l=uk) та [Android](https://play.google.com/store/apps/details?id=com.online.button_bachu_vse)
+Додатки: [iOS (?)](https://apps.apple.com/ua/app/button_bachu_vse/id649771422?l=uk) та [Android](https://play.google.com/store/apps/details?id=com.online.button_bachu_vse)
 
 Особливості:
-- інтеграція Google реклами
+- інтеграція таргетингової реклами
 #
 
 
-## Плагін для Wordpress 
+## Плагін для Wordpress
 ![](https://user-images.githubusercontent.com/87285957/179899130-c7b400e0-d2be-4599-b6af-709c5e0344b6.png) 
 Встановую його для кожного свого додатку!
 ### AddSoft
