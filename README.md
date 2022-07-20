@@ -70,8 +70,9 @@
 
 
 ## 🧩 Плагін для Wordpress 😎
-![](https://user-images.githubusercontent.com/87285957/179899130-c7b400e0-d2be-4599-b6af-709c5e0344b6.png) 
 ### AddSoft
+![](https://user-images.githubusercontent.com/87285957/179899130-c7b400e0-d2be-4599-b6af-709c5e0344b6.png) 
+
 - Встановлюю його для кожного свого додатку!
 ![](https://user-images.githubusercontent.com/87285957/179900443-7e55d260-a0dd-4eeb-b909-01d54c922a03.png)
 
