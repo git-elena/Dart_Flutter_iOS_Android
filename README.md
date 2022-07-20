@@ -1,21 +1,22 @@
-# Мій перший проект Flutter
+# Це мій перший проект Flutter
 
-Створений в процесі навчання 
+Створений в процесі навчання і не містить кориснрї інформації (:
 
-## Мої комерційні проекти
+## Мої комерційні проекти:
 
 
 ### Сервіс доставки суші HIROSAKI
 
-Сайт [www.hirosaki.store](https://www.hirosaki.store/)
+Дизайн сайту: [www.hirosaki.store](https://www.hirosaki.store/)
 
-Додатки [iOS](https://apps.apple.com/ua/app/hirosaki-sushi/id1584069908?l=uk) та [Android](https://play.google.com/store/apps/details?id=com.hirosaki.sushi_house_client_app)
+Додатки: [iOS](https://apps.apple.com/ua/app/hirosaki-sushi/id1584069908?l=uk) та [Android](https://play.google.com/store/apps/details?id=com.hirosaki.sushi_house_client_app)
 
 Особливості:
-- взаємодія з CRM Бітрікс24 (реалізація вхідних/вихідних хуків)
-- оплата через систему PayPal
-- надсилання замовлень в Телеграм-бота (реалізація Телеграм-бота)
+- взаємодія з CRM Бітрікс24 через сайт і додатки (реалізація вхідних/вихідних хуків в CRM Бітрікс24)
+- оплата на сайті і в додатках через систему PayPal
+- реалізація Телеграм-бота для отримання замовлень з сайта і додатків
 #
+
 
 ### Церква Храм Духа Святого Україна
 
@@ -34,6 +35,7 @@
 - ініціація телефонного виклику
 #
 
+
 ### Церква Храм Святого Духа Росія
 ####Аналогічний по функціям додаток
 
@@ -43,6 +45,7 @@
 - оновлення списків при скролінгу на початок
 #
 
+
 ### Відеоспостереження Бачу Все Онлайн
 
 Додатки [iOS](https://apps.apple.com/ua/app/button_bachu_vse/id649771422?l=uk) та [Android](https://play.google.com/store/apps/details?id=com.online.button_bachu_vse)
@@ -50,6 +53,7 @@
 Особливості:
 - інтеграція Google реклами
 #
+
 
 ### Плагін для Wordpress 
 ![](https://user-images.githubusercontent.com/87285957/179899130-c7b400e0-d2be-4599-b6af-709c5e0344b6.png) 
