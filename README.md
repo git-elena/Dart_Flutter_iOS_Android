@@ -51,10 +51,12 @@
 - інтеграція Google реклами
 #
 
-### Плагін для Wordpress!
-[### Плагін для Wordpress!](https://user-images.githubusercontent.com/87285957/179899130-c7b400e0-d2be-4599-b6af-709c5e0344b6.png)
+### [Плагін](https://user-images.githubusercontent.com/87285957/179899130-c7b400e0-d2be-4599-b6af-709c5e0344b6.png) для Wordpress
+Встановую його для кожного свого додатку!
+## [AddSoft](https://user-images.githubusercontent.com/87285957/179900443-7e55d260-a0dd-4eeb-b909-01d54c922a03.png)
 
-- рахує користувачів додатку на Android та iOS
-- відправляє повідомлення через сервер Firebase
-- встановлює посилання на стріми для додатків
+- ![унікальні ссилки для окремих дадатків](https://user-images.githubusercontent.com/87285957/179900040-462eb35d-8343-4f0b-8a26-c7813e254c04.png)
+- [рахує кількість установок та відображає активність користувачів](https://user-images.githubusercontent.com/87285957/179900243-458bff56-064a-482b-a8dc-e769d43439d8.png)
+- [відправляє повідомлення через сервер Firebase](https://user-images.githubusercontent.com/87285957/179900617-4dbad00e-1964-47ce-985f-aeba0d933190.png)
+- встановлює додаткову інформацію для додатків ([ссилки на стріми для церкви](https://user-images.githubusercontent.com/87285957/179900867-77afcfce-9807-4b92-92dd-0590fb15f869.png))
 #
